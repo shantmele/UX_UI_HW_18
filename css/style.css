@@ -1,0 +1,233 @@
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.block_element {
+  width: 700px;
+  background-color: #C7DCDF;
+  margin-left: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+}
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none ;
+}
+
+li {
+  float: right;
+}
+
+li a {
+    color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: none;
+}
+
+section {
+  background-color: #EDE7E3;
+  padding: 20px;
+
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+img {
+  width: 200px;
+}
+
+
+
+
+{
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+
+footer {
+  text-align: right;
+  padding: 25px;
+  background-color: #EADFD7;
+  color: Black;
+}
+
+----------
+
+
+#hero {
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 75vh;
+}
+
+.nav-link.active {
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+    padding:5%;
+}
+nav{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav .hamburger {
+    width:180px ;
+    text-align: right;
+}
+
+
+
+
+
+#adventure {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#adventure h2 {
+ text-align:center;
+ font-size:38px;
+ margin-bottom:100px;
+
+}
+
+
+#adventure .adventure-card {
+background-image: url("...png");
+background-size:cover ;
+height:205px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+}
+
+.adventure-card .card-items {
+    margin-left:40px;
+    margin-right:60px;
+    color:black;
+
+}
+
+ .btn-primary {
+    background-color:#ff9900;
+    border-color: #ff9900;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color:#c47703;
+    border-color: #c47703;
+}
+
+.adventure-card .card-items .card-icon {
+    width:75%;
+
+}
+
+}
+h4 {
+    color:white;
+}
+
+/* Location Section */
+
+#locations {
+    padding:200px 0px 100px;
+    background-image:url("../images/...png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#locations .location-card {
+
+    background-size: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-color: #edeaea;
+    }
+
+
+
+#locations .location-card .card-items {
+    background-color: white;
+    margin: 0px 30px 50px 30px;
+    padding:20px;
+    
+}       
+
+
+.location-item .card-items h3 {
+
+    font-size:20px;
+    width:45%;
+    
+    
+}
+
+.location-item .card-items .heading {
+    display:flex;
+    justify-content: space-between;
+    }
+
+
+ /* Mailing List     */
+
+
+
+.back-top {
+
+    padding:30px;
+}
+
+.back-top  img {
+    transform: rotate(180deg);
+
+}
